@@ -52,4 +52,8 @@ const Client = sequelize.define('Client', {
     tableName: 'clients'
 });
 
+sequelize.sync({ alter: true })
+    .then(() => console.log("Tabla 'clients' sincronizada correctamente"))
+    .catch(err => console.error("Error al sincronizar la tabla 'clients':", err));
+
 export default Client;
