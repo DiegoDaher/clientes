@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE y editores de código
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caché y archivos temporales
+dist/
+tmp/
+out/
+.cache/
+.nyc_output/
+
+# Builds
+build/
+coverage/
